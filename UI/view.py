@@ -88,7 +88,7 @@ class View(ft.UserControl):
                       spacing=50)
         self._page.controls.append(row3)
         self._page.update()
-
+        self._controller.popola()
         self._page.update()
 
     @property
